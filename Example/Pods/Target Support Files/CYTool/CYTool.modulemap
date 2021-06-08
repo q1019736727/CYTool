@@ -1,0 +1,6 @@
+framework module CYTool {
+  umbrella header "CYTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

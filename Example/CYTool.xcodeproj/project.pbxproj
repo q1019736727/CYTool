@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000F5FFBD4BB56E072D71659 /* CYTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CYTool.podspec; path = ../CYTool.podspec; sourceTree = "<group>"; };
+		000F5FFBD4BB56E072D71659 /* CYTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CYTool.podspec; path = ../CYTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0F045FA5A3AFC0AEDE30F6A2 /* Pods-CYTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-CYTool_Tests/Pods-CYTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		42DD0ACFD670E674A88C4FFE /* Pods-CYTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CYTool_Tests/Pods-CYTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5277C3B82EFE5B7B1DCC05CC /* Pods-CYTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-CYTool_Example/Pods-CYTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* CYTool_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYTool_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7A821F61BEFC794046B172AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7A821F61BEFC794046B172AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		84435D2E6A849FCF6535EBBB /* Pods-CYTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYTool_Example.release.xcconfig"; path = "Target Support Files/Pods-CYTool_Example/Pods-CYTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8AF7CD705B39EE4C81B1E3D7 /* Pods_CYTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD01B08ED5496E96D07D800 /* Pods_CYTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7F621BE8100647145E5CEE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B7F621BE8100647145E5CEE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				42DD0ACFD670E674A88C4FFE /* Pods-CYTool_Tests.debug.xcconfig */,
 				0F045FA5A3AFC0AEDE30F6A2 /* Pods-CYTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
