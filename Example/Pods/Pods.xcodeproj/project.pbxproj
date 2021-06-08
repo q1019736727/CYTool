@@ -8,26 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		2BEF51EFF7606F0EFDB5972CC4AFEF76 /* Pods-CYTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A54A1FA0600BE6F56BF6C058DC3931 /* Pods-CYTool_Tests-dummy.m */; };
+		2F17F9EA7FB5E0944D3A280C6E371365 /* GlobalEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009FE28792C4692C978CB253F917F6A /* GlobalEnum.swift */; };
 		3F0A656D4255C5B23F4E18638A902C95 /* Pods-CYTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 081287555253721DC842BBD63AF31968 /* Pods-CYTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FE32F2F5A1803A70496E0E7EE776EB8 /* CYTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8170CA9620E7618B53690B1A511AC3F9 /* CYTool-dummy.m */; };
 		854A602BF44EAEED4237F74B89C51289 /* Pods-CYTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0AA9DA2E767BBA107655A372F4076 /* Pods-CYTool_Example-dummy.m */; };
 		92E366488BE811FAE6A0AC3227A859A1 /* Pods-CYTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0779E2F374D2B21A1421327718100BF /* Pods-CYTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF34F13A6FA50852D45B03D050D880F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A38AFD852C34F478C6BCC926491C75FC /* CYTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B29BA2EFFBF6CF4D1D6B8F4147E2B27 /* CYTool-dummy.m */; };
+		C0769B409FE6ADF77993617EF4AA7E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C0F73BA9920191920A234CC068E42296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DB3B92B24F8B5B92D117B30071A34B8E /* CYTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BCC3E18872DD9F52216D45A12C1EC5F /* CYTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF38F4430A9EAAB20EECCB41240FF5C3 /* GlobalEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3201B9C5E7FA7B238B0D58321EFD3A /* GlobalEnum.swift */; };
+		CAEDC306BC5D117045B29F21D09A7CE8 /* CYTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FD4046823D87FD5B6FB21732C30D3C /* CYTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAD17CCB8125C17A6FFD0F4FAFD5732F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F9217359A8AF85457633061EB9C4A1F5 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10982D91787FA9C527ADE96856761F3 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B349D822B827EF6CC1A902122931CA7A /* PBXContainerItemProxy */ = {
+		81DF6B9FBDA4FA4BAE35A86E1F76CE6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FB785499DBAF3A9CD5C258AC5F2685CB;
 			remoteInfo = "Pods-CYTool_Example";
 		};
-		F3CAC8877C482C8624019A2CB8927CC1 /* PBXContainerItemProxy */ = {
+		C772EF29701CC5B8BBA8C816C931B719 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,49 +39,42 @@
 
 /* Begin PBXFileReference section */
 		081287555253721DC842BBD63AF31968 /* Pods-CYTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CYTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		08F541DBA06C9C886D13EFC806630922 /* CYTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYTool-prefix.pch"; sourceTree = "<group>"; };
-		0987C24F71704D94DA4FFF011AD5F4CE /* CYTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYTool.release.xcconfig; sourceTree = "<group>"; };
 		09F0AA9DA2E767BBA107655A372F4076 /* Pods-CYTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYTool_Example-dummy.m"; sourceTree = "<group>"; };
+		131CEBE4B4F10DEC7C8E339EE7E1026F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		21FDF0C51F679457AECA29326B0979F1 /* Pods_CYTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CYTool_Example.framework; path = "Pods-CYTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A54A1FA0600BE6F56BF6C058DC3931 /* Pods-CYTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		2B29BA2EFFBF6CF4D1D6B8F4147E2B27 /* CYTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYTool-dummy.m"; sourceTree = "<group>"; };
+		3486B1315886CCD0D75DD8E069A10312 /* CYTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CYTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3772CE58F0FA770FCA2A05749BD269E8 /* Pods_CYTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CYTool_Tests.framework; path = "Pods-CYTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4344D20D1674C473A8A8788C3BE778D9 /* Pods-CYTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5413D2CDCEBD703F1A2E4F8223A4163C /* CYTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CYTool.framework; path = CYTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		543BA63FFFA5146B08F6849612E94D5B /* Pods-CYTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5C3201B9C5E7FA7B238B0D58321EFD3A /* GlobalEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalEnum.swift; path = CYTool/Classes/GlobalEnum.swift; sourceTree = "<group>"; };
-		6BCC3E18872DD9F52216D45A12C1EC5F /* CYTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYTool-umbrella.h"; sourceTree = "<group>"; };
+		701FBD3BD130742B3D548D81AD16BB8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		723EE96244ADA7D4840DD47C42B26533 /* Pods-CYTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E98D878B06E53C1FDEAF4EF3A0A7806 /* CYTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYTool.debug.xcconfig; sourceTree = "<group>"; };
-		8170CA9620E7618B53690B1A511AC3F9 /* CYTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYTool-dummy.m"; sourceTree = "<group>"; };
+		84BD71747889ECB4B6D78C4C8055DA60 /* CYTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYTool.debug.xcconfig; sourceTree = "<group>"; };
 		8E2B1269C8E952A300B9BD6BB38E5274 /* Pods-CYTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYTool_Example-Info.plist"; sourceTree = "<group>"; };
-		98ED7FB6AA4C29B4582AADECB2A36CA9 /* CYTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CYTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2E177F96F0EE5C898BEB2A135F3BB71 /* CYTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYTool.release.xcconfig; sourceTree = "<group>"; };
+		A56DA56CC4536B2AB82DCE29391CE8B5 /* CYTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CYTool-Info.plist"; sourceTree = "<group>"; };
 		A6CC957D91DF1BBE30E78057FD203126 /* Pods-CYTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CYTool_Tests.modulemap"; sourceTree = "<group>"; };
+		AA34008839ED96D1D4C0084F3CD1E5EF /* CYTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYTool-prefix.pch"; sourceTree = "<group>"; };
+		B009FE28792C4692C978CB253F917F6A /* GlobalEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalEnum.swift; path = CYTool/Classes/GlobalEnum.swift; sourceTree = "<group>"; };
 		B0F7397BB16CC018C7E0B85C4A0E1DA8 /* Pods-CYTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CYTool_Example.modulemap"; sourceTree = "<group>"; };
 		B241CEA9883201CF954FC9F6CC8FA3DE /* Pods-CYTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B35E66BBBFF36678B103B551EE96FFCA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B79F607207B3E0CA1D1573C2676554B9 /* Pods-CYTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BB5E2751F7DE2D8941BD6B3BF6679E17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C2F8E32B17FF4DBD2961015C4068B262 /* CYTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CYTool-Info.plist"; sourceTree = "<group>"; };
-		CDAA5A580616361611F01FD969FA3CB0 /* CYTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CYTool.modulemap; sourceTree = "<group>"; };
+		C10982D91787FA9C527ADE96856761F3 /* test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = test.swift; path = CYTool/Classes/test.swift; sourceTree = "<group>"; };
 		D0779E2F374D2B21A1421327718100BF /* Pods-CYTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CYTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D3C77EA15F5AB4F2D3BF455FCA008844 /* Pods-CYTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		D6FD4046823D87FD5B6FB21732C30D3C /* CYTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYTool-umbrella.h"; sourceTree = "<group>"; };
 		DD89F2848D75E390D2B777FE6C9378FF /* Pods-CYTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DFE1EAE6ECB3ED88F690EE3A22221D0E /* Pods-CYTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EEB2CD3B5BBB5AC5458B306DA9CC6096 /* Pods-CYTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F04EE72A07A93546A8CF7D3F190636D8 /* CYTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CYTool.modulemap; sourceTree = "<group>"; };
 		FDDFD54C6D2C34FD6DB5F44F4DA25490 /* Pods-CYTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2FBB987894206E087A1A9080C27F7F4C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF34F13A6FA50852D45B03D050D880F3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5174B21D498733F3F96E5CD0B4D99FE4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,24 +91,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F18F1E48C6C2C6EF29A4BD130E04360C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0769B409FE6ADF77993617EF4AA7E8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AB424C014CD935AD31165A30B35932C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CDAA5A580616361611F01FD969FA3CB0 /* CYTool.modulemap */,
-				8170CA9620E7618B53690B1A511AC3F9 /* CYTool-dummy.m */,
-				C2F8E32B17FF4DBD2961015C4068B262 /* CYTool-Info.plist */,
-				08F541DBA06C9C886D13EFC806630922 /* CYTool-prefix.pch */,
-				6BCC3E18872DD9F52216D45A12C1EC5F /* CYTool-umbrella.h */,
-				7E98D878B06E53C1FDEAF4EF3A0A7806 /* CYTool.debug.xcconfig */,
-				0987C24F71704D94DA4FFF011AD5F4CE /* CYTool.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CYTool";
-			sourceTree = "<group>";
-		};
 		221B91219A8F944B17E348B4CC3EC8D4 /* Pods-CYTool_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +117,14 @@
 			);
 			name = "Pods-CYTool_Example";
 			path = "Target Support Files/Pods-CYTool_Example";
+			sourceTree = "<group>";
+		};
+		2A37315CE7FE05A9DBEC66234F3A0D60 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CCAA5DEEC1D525C68F10293791E33FA /* CYTool */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2F8E08B8CC8EFC9FC2B194B2903EF826 /* Targets Support Files */ = {
@@ -165,6 +160,18 @@
 			path = "Target Support Files/Pods-CYTool_Tests";
 			sourceTree = "<group>";
 		};
+		5CCAA5DEEC1D525C68F10293791E33FA /* CYTool */ = {
+			isa = PBXGroup;
+			children = (
+				B009FE28792C4692C978CB253F917F6A /* GlobalEnum.swift */,
+				C10982D91787FA9C527ADE96856761F3 /* test.swift */,
+				E244EE21FDA9769B865F0E92C9ED81ED /* Pod */,
+				E48CF8B7FE24D0C491659FF3D8C5531B /* Support Files */,
+			);
+			name = CYTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		80B80D1D455DEA548F5428D531AD7E5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,30 +182,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A9BDF14685AC6C5335A3C60923CCE68C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B0C4BE6DAB6F8F32A91EB6C5D3DDCDC5 /* CYTool */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B0C4BE6DAB6F8F32A91EB6C5D3DDCDC5 /* CYTool */ = {
-			isa = PBXGroup;
-			children = (
-				5C3201B9C5E7FA7B238B0D58321EFD3A /* GlobalEnum.swift */,
-				E97ABC384731415AF6A7009BA9C55F5A /* Pod */,
-				1AB424C014CD935AD31165A30B35932C /* Support Files */,
-			);
-			name = CYTool;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A9BDF14685AC6C5335A3C60923CCE68C /* Development Pods */,
+				2A37315CE7FE05A9DBEC66234F3A0D60 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				80B80D1D455DEA548F5428D531AD7E5D /* Products */,
 				2F8E08B8CC8EFC9FC2B194B2903EF826 /* Targets Support Files */,
@@ -213,14 +201,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E97ABC384731415AF6A7009BA9C55F5A /* Pod */ = {
+		E244EE21FDA9769B865F0E92C9ED81ED /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				98ED7FB6AA4C29B4582AADECB2A36CA9 /* CYTool.podspec */,
-				B35E66BBBFF36678B103B551EE96FFCA /* LICENSE */,
-				BB5E2751F7DE2D8941BD6B3BF6679E17 /* README.md */,
+				3486B1315886CCD0D75DD8E069A10312 /* CYTool.podspec */,
+				701FBD3BD130742B3D548D81AD16BB8E /* LICENSE */,
+				131CEBE4B4F10DEC7C8E339EE7E1026F /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		E48CF8B7FE24D0C491659FF3D8C5531B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F04EE72A07A93546A8CF7D3F190636D8 /* CYTool.modulemap */,
+				2B29BA2EFFBF6CF4D1D6B8F4147E2B27 /* CYTool-dummy.m */,
+				A56DA56CC4536B2AB82DCE29391CE8B5 /* CYTool-Info.plist */,
+				AA34008839ED96D1D4C0084F3CD1E5EF /* CYTool-prefix.pch */,
+				D6FD4046823D87FD5B6FB21732C30D3C /* CYTool-umbrella.h */,
+				84BD71747889ECB4B6D78C4C8055DA60 /* CYTool.debug.xcconfig */,
+				A2E177F96F0EE5C898BEB2A135F3BB71 /* CYTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CYTool";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +237,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3EB5DC7B6D4DF2CCCE9121AC89A211A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDC306BC5D117045B29F21D09A7CE8 /* CYTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65D52EF1A10CD10BEB01DC0AE3CE6E8F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,25 +253,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE28C5B257C70B40266C35A1A394D3C7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB3B92B24F8B5B92D117B30071A34B8E /* CYTool-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		598C2DB6109779768FFC82EB47480DE5 /* CYTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4ACD42657E84ABBC5128AA3C7F113282 /* Build configuration list for PBXNativeTarget "CYTool" */;
+			buildConfigurationList = 8DC74289307FFD08CC3F0E36FBDB8BDE /* Build configuration list for PBXNativeTarget "CYTool" */;
 			buildPhases = (
-				EE28C5B257C70B40266C35A1A394D3C7 /* Headers */,
-				C419A722C3F1E305F8AF7EF2935A3CD2 /* Sources */,
-				2FBB987894206E087A1A9080C27F7F4C /* Frameworks */,
-				9B89336EB7497B4BF8A5C121DBDDDBCA /* Resources */,
+				3EB5DC7B6D4DF2CCCE9121AC89A211A0 /* Headers */,
+				59D7B10D32F8FB727966D99BAD67B0ED /* Sources */,
+				F18F1E48C6C2C6EF29A4BD130E04360C /* Frameworks */,
+				852A899C1BF9CD6F3BBF84436DAC6FE5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +286,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B11699104C38323BC08A7976A46358DD /* PBXTargetDependency */,
+				E11D4E2541F01AF677776153C8DF40EE /* PBXTargetDependency */,
 			);
 			name = "Pods-CYTool_Tests";
 			productName = "Pods-CYTool_Tests";
@@ -302,7 +305,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F206BAF25661D61B2261204169058C7C /* PBXTargetDependency */,
+				0E61F0F82D3D5A1EBCE2366CE16403BD /* PBXTargetDependency */,
 			);
 			name = "Pods-CYTool_Example";
 			productName = "Pods-CYTool_Example";
@@ -346,14 +349,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F4A9784180D902CEE443128EDF120E6 /* Resources */ = {
+		852A899C1BF9CD6F3BBF84436DAC6FE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B89336EB7497B4BF8A5C121DBDDDBCA /* Resources */ = {
+		8F4A9784180D902CEE443128EDF120E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +366,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C419A722C3F1E305F8AF7EF2935A3CD2 /* Sources */ = {
+		59D7B10D32F8FB727966D99BAD67B0ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FE32F2F5A1803A70496E0E7EE776EB8 /* CYTool-dummy.m in Sources */,
-				DF38F4430A9EAAB20EECCB41240FF5C3 /* GlobalEnum.swift in Sources */,
+				A38AFD852C34F478C6BCC926491C75FC /* CYTool-dummy.m in Sources */,
+				2F17F9EA7FB5E0944D3A280C6E371365 /* GlobalEnum.swift in Sources */,
+				F9217359A8AF85457633061EB9C4A1F5 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +395,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B11699104C38323BC08A7976A46358DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CYTool_Example";
-			target = FB785499DBAF3A9CD5C258AC5F2685CB /* Pods-CYTool_Example */;
-			targetProxy = B349D822B827EF6CC1A902122931CA7A /* PBXContainerItemProxy */;
-		};
-		F206BAF25661D61B2261204169058C7C /* PBXTargetDependency */ = {
+		0E61F0F82D3D5A1EBCE2366CE16403BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CYTool;
 			target = 598C2DB6109779768FFC82EB47480DE5 /* CYTool */;
-			targetProxy = F3CAC8877C482C8624019A2CB8927CC1 /* PBXContainerItemProxy */;
+			targetProxy = C772EF29701CC5B8BBA8C816C931B719 /* PBXContainerItemProxy */;
+		};
+		E11D4E2541F01AF677776153C8DF40EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CYTool_Example";
+			target = FB785499DBAF3A9CD5C258AC5F2685CB /* Pods-CYTool_Example */;
+			targetProxy = 81DF6B9FBDA4FA4BAE35A86E1F76CE6F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -504,37 +508,6 @@
 			};
 			name = Debug;
 		};
-		BD5E30E32ED2D29908F26A94B52F22B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0987C24F71704D94DA4FFF011AD5F4CE /* CYTool.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CYTool/CYTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CYTool/CYTool-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CYTool/CYTool.modulemap";
-				PRODUCT_MODULE_NAME = CYTool;
-				PRODUCT_NAME = CYTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -629,6 +602,37 @@
 			};
 			name = Debug;
 		};
+		D7A8BFEEAF34BA63AE24BBAC5EF82916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E177F96F0EE5C898BEB2A135F3BB71 /* CYTool.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CYTool/CYTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYTool/CYTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CYTool/CYTool.modulemap";
+				PRODUCT_MODULE_NAME = CYTool;
+				PRODUCT_NAME = CYTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E0FD580BEDDE998CB329190901677F35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4344D20D1674C473A8A8788C3BE778D9 /* Pods-CYTool_Tests.release.xcconfig */;
@@ -662,9 +666,9 @@
 			};
 			name = Release;
 		};
-		E3ED38238DB0B380512D58BE5C5C2D6C /* Debug */ = {
+		F4740E76E21AEF48258BBC3A7FB169A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E98D878B06E53C1FDEAF4EF3A0A7806 /* CYTool.debug.xcconfig */;
+			baseConfigurationReference = 84BD71747889ECB4B6D78C4C8055DA60 /* CYTool.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -737,11 +741,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4ACD42657E84ABBC5128AA3C7F113282 /* Build configuration list for PBXNativeTarget "CYTool" */ = {
+		8DC74289307FFD08CC3F0E36FBDB8BDE /* Build configuration list for PBXNativeTarget "CYTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3ED38238DB0B380512D58BE5C5C2D6C /* Debug */,
-				BD5E30E32ED2D29908F26A94B52F22B9 /* Release */,
+				F4740E76E21AEF48258BBC3A7FB169A8 /* Debug */,
+				D7A8BFEEAF34BA63AE24BBAC5EF82916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
