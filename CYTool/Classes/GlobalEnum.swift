@@ -7,6 +7,9 @@
 
 
 enum OrderDetailType {
+    
+    //我是更新内容
+    
     case OrderComplete // 已完成/
     case OrderWaitPay // 待支付/
     case OrderWaitUse //待使用/
