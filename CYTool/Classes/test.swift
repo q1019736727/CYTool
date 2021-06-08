@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class CYTool {
+    
+    static let shared = CYTool()
+    
+    func test() {
+        print("test log")
+    }
+}
