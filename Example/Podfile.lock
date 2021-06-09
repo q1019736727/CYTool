@@ -1,5 +1,5 @@
 PODS:
-  - CYTool (0.2.0)
+  - CYTool (0.2.1)
 
 DEPENDENCIES:
   - CYTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CYTool: baa8ebf116fda0cbef4fe453af7a43d7cc295936
+  CYTool: d77ae148524a0b1e38706ce59f881a5f8e48e7ef
 
 PODFILE CHECKSUM: d286c8b467ef6ac4ca765da70aeb42cc48869b36
 

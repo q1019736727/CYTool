@@ -6,9 +6,9 @@
 //
 
 
-enum OrderDetailType {
+public enum OrderDetailType {
     
-    //我是更新内容222
+    //我是更新内容333
     
     case OrderComplete // 已完成/
     case OrderWaitPay // 待支付/
@@ -20,7 +20,7 @@ enum OrderDetailType {
     
 }
 
-extension OrderDetailType {
+public extension OrderDetailType {
     var displayName: String{
         switch self {
         case .OrderComplete:

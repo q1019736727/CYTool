@@ -7,7 +7,7 @@
 
 import Foundation
 
-class CYTool {
+public class CYTool {
     
     static let shared = CYTool()
     
